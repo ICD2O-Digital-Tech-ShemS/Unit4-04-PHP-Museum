@@ -31,6 +31,7 @@
     <option value="Friday">Friday</option>
     <option value="Saturday">Saturday</option>
   </select>
+  <input type="submit" value="Enter">
 		</form>
 
 			<iframe id="result" name="result">
