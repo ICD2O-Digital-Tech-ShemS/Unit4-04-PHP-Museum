@@ -20,7 +20,6 @@
   <div class="mdl-textfield mdl-js-textfield">
     <input type="number" step="any" id="age" placeholder="Enter Age" />
   </div>
-
   <br><br>
   <select name="day" id="day">
     <option value="Sunday">Sunday</option>
@@ -31,11 +30,11 @@
     <option value="Friday">Friday</option>
     <option value="Saturday">Saturday</option>
   </select>
+  <br>
   <input type="submit" value="Enter">
 		</form>
 
 			<iframe id="result" name="result">
-          <div id="$Display"></div>
 	    </iframe>
 	</body>
 </html>
