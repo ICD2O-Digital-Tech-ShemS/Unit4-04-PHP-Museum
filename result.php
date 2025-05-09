@@ -1,5 +1,5 @@
 <?php
-$age = $_POST['Age'];
+$age = $_POST['age'];
 $day = $_POST['day'];
 
 
