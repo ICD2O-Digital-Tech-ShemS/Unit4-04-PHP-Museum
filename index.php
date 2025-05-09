@@ -35,6 +35,8 @@
       <input type="submit" value="Enter">
     </form>
 
-    <iframe id="result" name="result" style="width:100%; height:100px; border:none;"></iframe>
+    <iframe id="result" name="result">
+    <div id="$Final"></div>
+    </iframe>
   </body>
 </html>
