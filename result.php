@@ -3,9 +3,12 @@ $age = $_POST['age'];
 $day = $_POST['day'];
 
 // Proper syntax: entire condition inside one set of parentheses
-if ((($age >= 12) && ($age <= 21)) || ($day == "Tuesday") || ($day == "Thursday")) {
+if (($age <= 5) && ($age >= 95)) {
     echo "You get a discount";
-} else {
+}else if ($day == "Tuesday") || ($day == "Thursday") {
+    echo "You get a discount";
+}
+ else {
     echo "Pay regular price";
 }
 ?>
